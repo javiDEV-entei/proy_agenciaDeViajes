@@ -1,0 +1,35 @@
+extends ./layout/index
+block slider
+        div.slider 
+                h1 Rio de Janeiro
+                em aventura
+
+block contenido
+        main.container.mt-5
+            h2.text-center.mb-5 Sobre Nosotros
+        div.row.mb-5
+                div.col-md-6
+                        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eu sem cursus, tristique ligula a, laoreet augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In ultrices massa a iaculis eleifend. Nam pellentesque lorem vitae sem porttitor blandit. Nunc vestibulum at leo ac fermentum. Nunc cursus molestie elit, et faucibus velit condimentum eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce quis erat id felis ullamcorper porttitor. Mauris venenatis vulputate nisl ut imperdiet.
+
+
+                        p Ut et nunc eu ante tristique porttitor non id mauris. Vestibulum nec tortor posuere, imperdiet nisi vitae, imperdiet massa. Donec non massa lorem. Maecenas sagittis sem at odio venenatis vestibulum. Nunc luctus tempus nunc, at tristique nunc elementum id. Sed vitae feugiat mauris. Vestibulum dapibus enim nisi, vitae tempor ipsum venenatis quis. Aliquam nisl massa, pretium eget elit quis, suscipit aliquam eros. In faucibus sodales gravida. Integer risus erat, ornare non mollis in, consectetur sit amet tellus. Curabitur sem orci, blandit sed enim id, malesuada lacinia arcu. Quisque ipsum erat, dapibus elementum nulla eu, volutpat dictum mauris
+
+                div.col-md-6
+                                img(src="/img/inicio_nosotros.jpg", alt="imagen nosotros", class="img-fluid")
+
+                include ./layout/bloque_viajes
+        div.descuento
+                div.container
+                        div.row
+                                div.col-md-6
+                                        div.contenido
+                                                h3 5% de descuento
+                                                p.titulo Viaje a Canada 
+                                                p.fecha 20 de Marzo de 2024 - 28 de Marzo de 2024
+                                                p.precio $2,500 USD 
+
+        div.container 
+                h2.mt-5.text-center Testimoniales
+                include ./layout/bloque_testimoniales
+
+                
